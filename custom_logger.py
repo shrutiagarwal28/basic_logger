@@ -13,6 +13,7 @@ import logging
 # Creating and configuring the logger
 
 log_format = "%(asctime)s - %(levelname)s - %(message)s" #determing the format we want of the log
+# Tip: Check https://docs.python.org/3/library/logging.html#logrecord-attributes for more options
 
 logging.basicConfig(filename = "/file_location/filename.txt", / # use basicConfig method to set the basic configuration for logging (https://docs.python.org/3/library/logging.html#logging.basicConfig)
 								level = logging.DEBUG, / # default logger level in basicConfig is 30, update it to Debug to see all messages from 1 to 5
